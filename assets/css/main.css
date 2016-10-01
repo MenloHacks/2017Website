@@ -4111,10 +4111,10 @@
 /* Banner */
 
 	#banner {
-		background-image: -moz-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("../../images/banner.jpg");
-		background-image: linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.5)), url("../../images/hero.jpg");
+		background-image: -webkit-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.5)), url("../../images/hero.jpg");
+		background-image: -ms-linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.5)), url("../../images/hero.jpg");
+		background-image: linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.5)), url("../../images/hero.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-size: cover;
