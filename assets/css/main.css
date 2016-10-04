@@ -2723,14 +2723,7 @@ input.menlohacks-input {
 			text-transform: uppercase;
 		}
 
-		header.major:after {
-			bottom: 0;
-			content: '';
-			height: 1px;
-			left: 0;
-			position: absolute;
-			width: 7em;
-		}
+
 
 		header.major.alt {
 			margin-bottom: 0;
@@ -2887,7 +2880,7 @@ input.menlohacks-input {
 	}
 
 		.spotlights article {
-			padding: 3.5em 4em 1.5em 4em ;
+			padding: 1.5em 1.5em 1.5em 1.5em ;
 			box-shadow: 0 1em 5em rgba(0, 0, 0, 0.05);
 			margin-bottom: 3em;
 			width: 48%;
