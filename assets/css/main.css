@@ -20,6 +20,10 @@
 
 /*Additions to theme*/
 
+
+#sponsors p {
+    font-size: 1.3em;
+}
 input.menlohacks-input {
     border-color: white !important;
     border: solid 1px !important;
