@@ -21,6 +21,7 @@
 			$body = $('body'),
 			$header = $('#header'),
 			$banner = $('#banner');
+			$logo = $('#logo');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -50,11 +51,13 @@
 			});
 
 		// Header.
-			if (skel.vars.IEVersion < 9)
+			if (skel.vars.IEVersion < 9) {
 				$header.removeClass('alt');
+				$logo.removeClass('hidden-top');
+			}
 
-			if ($banner.length > 0
-			&&	$header.hasClass('alt')) {
+			if ($banner.length > 0) {
+			if($header.hasClass('alt')) {
 
 				$window.on('resize', function() { $window.trigger('scroll'); });
 
@@ -66,6 +69,18 @@
 				});
 
 			}
+			if($logo.hasClass('hidden-top')) {
+								$window.on('resize', function() { $window.trigger('scroll'); });
+
+				$banner.scrollex({
+					bottom:		$logo.outerHeight(),
+					terminate:	function() { $logo.removeClass('hidden-top'); },
+					enter:		function() { $logo.addClass('hidden-top'); },
+					leave:		function() { $logo.removeClass('hidden-top'); }
+				});
+			}
+			}
+
 
 		// Menu.
 			var $menu = $('#menu');
