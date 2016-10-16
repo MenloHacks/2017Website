@@ -1,5 +1,4 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
 /*
 	Atmosphere by Pixelarity
@@ -1661,7 +1660,6 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Quicksand", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 400;
 		line-height: 1.625;
