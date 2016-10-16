@@ -57,28 +57,19 @@
 			}
 
 			if ($banner.length > 0) {
-			if($header.hasClass('alt')) {
+										if($logo.hasClass('hidden-top')) {
 
 				$window.on('resize', function() { $window.trigger('scroll'); });
 
 				$banner.scrollex({
 					bottom:		$header.outerHeight(),
-					terminate:	function() { $header.removeClass('alt'); },
-					enter:		function() { $header.addClass('alt'); },
-					leave:		function() { $header.removeClass('alt'); }
+					terminate:	function() { logo.removeClass('hidden-top'); $header.removeClass('alt');},
+					enter:		function() { $logo.addClass('hidden-top'); $header.addClass('alt'); },
+					leave:		function() { $logo.removeClass('hidden-top'); $header.removeClass('alt');}
 				});
 
 			}
-			if($logo.hasClass('hidden-top')) {
-								$window.on('resize', function() { $window.trigger('scroll'); });
 
-				$banner.scrollex({
-					bottom:		$logo.outerHeight(),
-					terminate:	function() { $logo.removeClass('hidden-top'); },
-					enter:		function() { $logo.addClass('hidden-top'); },
-					leave:		function() { $logo.removeClass('hidden-top'); }
-				});
-			}
 			}
 
 
