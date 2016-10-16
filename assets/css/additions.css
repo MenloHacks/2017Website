@@ -33,6 +33,15 @@ nav li {
     padding-right : 1.5em;
 }
 
+.logo {
+    margin-left: 1.5em;
+    letter-spacing: 0.25em;
+}
+
+.hidden-top {
+    display: none !important;
+}
+
 .nav {
  padding: 0;
  margin: 0;
