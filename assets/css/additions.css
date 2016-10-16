@@ -18,6 +18,10 @@ nav ul {
     margin: 0 auto;
 }
 
+	body, input, select, textarea {
+		font-family: "proxima-nova", sans-serif;
+	}
+
 #header {
  padding: 0;
     margin: 0;
