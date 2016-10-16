@@ -11,23 +11,29 @@ License: pixelarity.com/license
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
         <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/additions.css"/>
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     </head>
-
-    <!-- Latest compiled and minified CSS -->
-
-
-    <body>
+    <body data-spy="scroll" data-target="#main-nav">
 
         <!-- Page wrapper -->
         <div id="page-wrapper">
 
             <!-- Header -->
             <header id="header" class="alt">
-                <span class="logo"><a href="index.html">Atmosphere</a> <span>by Pixelarity</span></span>
-                <!-- Nav -->
-                <a href="#menu">Menu</a>
+                        <div class="navbar-header hidden-xs nav-set-height">
+            <nav class="row hidden-xs" id="main-nav">
+                <ul class="nav">
+                     <li id="splash" class="hide"></li> 
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#whatsnew">What's New</a></li>
+                          <li><a href="#faq">FAQ</a></li>
+                          <li><a href="#sponsors">Sponsors</a></li>
+                </ul>
+            </nav>
+        </div>
+
             </header>
 
         </div>
@@ -37,7 +43,7 @@ License: pixelarity.com/license
             <div class="inner">
                 <img class="logo-header" src="images/MenloHacksLogo.svg">
                 <h3 class="intro-paragraph">March 17-18, 2017 <br> Menlo School</h3>
-                <form method="post" action="#">
+                <form id="signup-form" method="post" action="http://menlohacks.us13.list-manage.com/subscribe/post?u=39d2cb7655315169c93362122&amp;id=24c821b7dd">
                     <div class="row uniform">
                         <div class="9u 12u$(small)">
                             <input type="email" class="menlohacks-input" name="query" id="query" value="" placeholder="Email Address" />
@@ -68,7 +74,7 @@ License: pixelarity.com/license
         </section>
 
         <!-- Two -->
-        <section id="different" class="wrapper style1">
+        <section id="whatsnew" class="wrapper style1">
             <div class="inner">
                 <h1>What's New for MenloHacks II?</h1>
                 <p>
@@ -82,7 +88,7 @@ License: pixelarity.com/license
         </section>
 
         <!-- Three -->
-        <section id="three" class="wrapper style2">
+        <section id="faq" class="wrapper style2">
             <div class="inner">
                 <h1>FAQ</h1>
                 <section class="spotlights">
@@ -95,7 +101,7 @@ License: pixelarity.com/license
                     </article>
                     <article>
                         <header class="major">
-                            <p>Who can attend></p> 
+                            <p>Who can attend?</p> 
                         </header>
                         <p>Anyone currently in high school is elgible to apply.</p>
 
@@ -111,7 +117,7 @@ License: pixelarity.com/license
                         <header class="major">
                             <p>How much does the event cost?</p> 
                         </header>
-                        <p>A sum total of $0.00. Even meals, snacks, caffeine, sodas, and other drinks are provided. Our goal is to let you hack without worry free.</p>
+                        <p>A sum total of $0.00. Even meals, snacks, caffeine, sodas, and other drinks are provided. Our goal is to let you hack worry free.</p>
 
                     </article>
                     <article>

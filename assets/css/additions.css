@@ -1,0 +1,114 @@
+/*Additions to theme*/
+
+nav ul {
+    list-style: none;
+    text-align: left;
+}
+
+.icons a {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.copyright {
+    margin-bottom: 0.8em !important;
+}
+
+.icons {
+   display: table;
+    margin: 0 auto;
+}
+
+#header {
+ padding: 0;
+    margin: 0;
+}    
+
+.navbar-header {
+    height : 4em;
+}
+
+nav li {
+    float: left;
+    padding-left: 1.5em;
+    padding-right : 1.5em;
+}
+
+.nav {
+ padding: 0;
+ margin: 0;
+ height: 100%;
+}
+
+#main-nav {
+    height: 100%;
+}
+
+#header {
+    			-moz-transition: opacity 1s ease-in-out, -moz-transform 1s ease-in-out;
+			-webkit-transition: opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;
+			-ms-transition: opacity 1s ease-in-out, -ms-transform 1s ease-in-out;
+			transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    		-moz-transition: -moz-filter 0.25s ease;
+		-webkit-transition: -webkit-filter 0.25s ease;
+		-ms-transition: -ms-filter 0.25s ease;
+		transition: filter 0.25s ease;
+}
+
+#header.alt {
+        background-color: rgba(0,0,0,0.25)
+}
+
+nav li {
+    height: 100%;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    min-height: 100%;
+    top: 50%;
+    height : 100%;
+    line-height: 4em;
+   
+}
+
+#sponsors p {
+    font-size: 1.3em;
+}
+input.menlohacks-input {
+    border-color: white !important;
+    border: solid 1px !important;
+    color: white !important;
+    border-radius: 0px !important;
+    height: 3em !important;
+    padding: 0 1em !important;
+}
+
+.intro-paragraph {
+    color: white;
+}
+
+.section-break {
+    width: 10%;
+    padding-bottom: 4em;
+}
+
+
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+    padding-right:20px;
+    padding-left:20px;
+    height: 0;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*End new classes*/
