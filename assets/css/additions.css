@@ -1,4 +1,5 @@
 /*Additions to theme*/
+@import url(font-awesome.min.css);
 
 nav ul {
     list-style: none;
@@ -14,18 +15,46 @@ nav ul {
 }
 
 .icons {
-   display: table;
+    display: table;
     margin: 0 auto;
 }
 
-	body, input, select, textarea {
-		font-family: "proxima-nova", sans-serif;
-	}
+body, input, select, textarea {
+    font-family: "proxima-nova", sans-serif;
+}
 
 #header {
- padding: 0;
+    padding: 0;
     margin: 0;
 }    
+
+a[href="#menu"]:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    color: white;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-transform: none !important;
+    height: 100%;
+}
+
+a[href="#menu"]:before {
+    content: '\f0c9';
+    float: right;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+a[href="#menu"]:hover {
+    background-color: rgba(255, 255, 255, 0.065);
+}
+
+.menu-wrapper {
+    margin-right: 3em;
+}
+
 
 .navbar-header {
     height : 4em;
@@ -35,7 +64,7 @@ nav ul {
     margin-bottom: 1em;
 }
 
-nav li {
+#main-nav li {
     float: left;
     padding-left: 1.5em;
     padding-right : 1.5em;
@@ -51,9 +80,9 @@ nav li {
 }
 
 .nav {
- padding: 0;
- margin: 0;
- height: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 
 #main-nav {
@@ -61,20 +90,45 @@ nav li {
 }
 
 #header {
-    			-moz-transition: opacity 1s ease-in-out, -moz-transform 1s ease-in-out;
-			-webkit-transition: opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;
-			-ms-transition: opacity 1s ease-in-out, -ms-transform 1s ease-in-out;
-			transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-    		-moz-transition: -moz-filter 0.25s ease;
-		-webkit-transition: -webkit-filter 0.25s ease;
-		-ms-transition: -ms-filter 0.25s ease;
-		transition: filter 0.25s ease;
+    -moz-transition: opacity 1s ease-in-out, -moz-transform 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out, -ms-transform 1s ease-in-out;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    -moz-transition: -moz-filter 0.25s ease;
+    -webkit-transition: -webkit-filter 0.25s ease;
+    -ms-transition: -ms-filter 0.25s ease;
+    transition: filter 0.25s ease;
 }
 
 #header.alt {
-        background-color: rgba(0,0,0,0.25)
+    background-color: rgba(0,0,0,0.25)
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .hidden-xs {
+        display:none;
+        visibility: hidden;
+    }
+    
+    #header {
+        height: 3em;
+    }
+}
+
+@media screen and (min-width:768px) {
+   .hidden-l {
+       display: none;
+   }
+    
+    a[href="#menu"]:before {
+    display:none !important;
+}
+
+
+
+}
 nav li {
     height: 100%;
 }
@@ -86,7 +140,7 @@ nav li a {
     top: 50%;
     height : 100%;
     line-height: 4em;
-   
+
 }
 
 #sponsors p {
@@ -112,19 +166,19 @@ input.menlohacks-input {
 
 
 .video-wrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
     padding-right:20px;
     padding-left:20px;
     height: 0;
 }
 .video-wrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
