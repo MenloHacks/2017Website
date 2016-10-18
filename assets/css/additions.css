@@ -123,7 +123,7 @@ a[href="#menu"]:hover {
    }
     
     a[href="#menu"]:before {
-    display:none !important;
+    display:none;
 }
 
 
