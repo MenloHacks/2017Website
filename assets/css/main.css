@@ -2695,11 +2695,6 @@
 
 	@media screen and (max-width: 768px) {
 
-		header.major {
-			margin-bottom: 1.8em;
-			padding-bottom: 1.3em;
-		}
-
 			header.major.alt {
 				margin-bottom: 1.8em;
 			}
