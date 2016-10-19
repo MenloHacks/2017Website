@@ -37,14 +37,14 @@ a[href="#menu"]:before {
     font-weight: normal;
     font-size: 1.5em;
     text-transform: none !important;
-    height: 100%;
+    line-height: 48px !important;
+    top:50%;
 }
 
 a[href="#menu"]:before {
     content: '\f0c9';
     float: right;
     margin-left: 0.5em;
-    margin-top: 0.5em;
 }
 
 a[href="#menu"]:hover {
@@ -111,22 +111,32 @@ a[href="#menu"]:hover {
         display:none;
         visibility: hidden;
     }
-    
+
     #header {
-        height: 3em;
+        height: 48px;
     }
+    
+     #logo {
+         height: 48px;
+         padding-top: 0px !important;
+     }
+    
+    			#header > .logo a {
+                    line-height: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+			}
 }
 
 @media screen and (min-width:768px) {
-   .hidden-l {
-       display: none;
-   }
-    
+    .hidden-l {
+        display: none;
+    }
+
     a[href="#menu"]:before {
-    display:none;
-}
-
-
+        display:none;
+    }
+    
 
 }
 nav li {
