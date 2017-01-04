@@ -1,35 +1,6 @@
 /*Additions to theme*/
 @import url(font-awesome.min.css);
 
-#mlh-trust-badge{
-	display:block;
-	max-width:100px;
-	min-width:60px;
-	top:0;
-	width:10vw;
-	z-index:10000;
-	padding:0em;
-	margin-right:50px;
-}
-
-.bronze-sponsor {
-	max-height: 8em;
-    margin-left: 3.5em;
-    margin-right: 3.5em;
-    vertical-align: middle;
-    margin-bottom: 2em;
-    max-width: 20em;
-}
-
-.sponsor-wrapper {
-	display:block;
-	text-align: center;
-}
-
-.sponsor-wrapper a {
-	text-decoration: none;
-}
-
 nav ul {
     list-style: none;
     text-align: left;
