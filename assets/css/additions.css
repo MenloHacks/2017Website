@@ -13,12 +13,21 @@
 }
 
 .bronze-sponsor {
-	max-height: 8em;
+	max-height: 6em;
     margin-left: 3.5em;
     margin-right: 3.5em;
     vertical-align: middle;
     margin-bottom: 2em;
     max-width: 20em;
+}
+
+.silver-sponsor {
+    max-height: 12em;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    vertical-align: middle;
+    margin-bottom: 2em;
+   
 }
 
 .sponsor-wrapper {
