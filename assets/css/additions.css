@@ -30,6 +30,16 @@
    
 }
 
+.gold-sponsor {
+    max-height: 15em;
+    max-width: 30em;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    vertical-align: middle;
+    margin-bottom: 2em;
+   
+}
+
 .sponsor-wrapper {
 	display:block;
 	text-align: center;
