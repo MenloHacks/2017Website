@@ -12,19 +12,41 @@
 	margin-right:50px;
 }
 
+@media screen and (max-width: 32em) {
+    .bronze-sponsor {
+        max-width: 50%;
+    }
+    .silver-sponsor {
+        max-width: 60%;
+    }
+    .gold-sponsor {
+        max-width: 70%;
+    }
+}
+
+@media screen and (min-width:32em) {
+    .bronze-sponsor {
+        max-width: 20em;
+    }
+    .silver-sponsor {
+        max-width: 23em;
+    }
+    .gold-sponsor {
+        max-width: 30em;
+    }
+}
+
 .bronze-sponsor {
 	max-height: 6em;
     margin-left: 3.5em;
     margin-right: 3.5em;
     vertical-align: middle;
     margin-bottom: 2em;
-    max-width: 20em;
 }
 
 .silver-sponsor {
     max-height: 12em;
     margin-left: 3.5em;
-    max-width: 23em;
     margin-right: 3.5em;
     vertical-align: middle;
     margin-bottom: 2em;
@@ -33,7 +55,6 @@
 
 .gold-sponsor {
     max-height: 15em;
-    max-width: 30em;
     margin-left: 3.5em;
     margin-right: 3.5em;
     vertical-align: middle;
