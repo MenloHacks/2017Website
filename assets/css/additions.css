@@ -37,7 +37,7 @@
 }
 
 .bronze-sponsor {
-	max-height: 6em;
+	max-height: 5em;
     margin-left: 3.5em;
     margin-right: 3.5em;
     vertical-align: middle;
@@ -45,7 +45,7 @@
 }
 
 .silver-sponsor {
-    max-height: 12em;
+    max-height: 10em;
     margin-left: 3.5em;
     margin-right: 3.5em;
     vertical-align: middle;
@@ -54,7 +54,7 @@
 }
 
 .gold-sponsor {
-    max-height: 15em;
+    max-height: 9em;
     margin-left: 3.5em;
     margin-right: 3.5em;
     vertical-align: middle;
