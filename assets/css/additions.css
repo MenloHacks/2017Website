@@ -328,7 +328,7 @@ input.menlohacks-input {
 }
 
 .time {
-    color: #FEA620;
+    color: #7d5ba6;
     width: 90px;
 }
 
@@ -389,6 +389,13 @@ input.menlohacks-input {
     margin-right: auto;
     width: 80%;
     text-align: center;
+}
+
+.col-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    max-width: 800px;
 }
 
 /*Bootstap classes w/out importing all of bootstrap*/
