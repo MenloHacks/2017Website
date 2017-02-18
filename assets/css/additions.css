@@ -395,7 +395,18 @@ input.menlohacks-input {
     margin-right: auto;
     margin-left: auto;
     overflow: auto;
-    max-width: 800px;
+    max-width: 1000px;
+}
+
+.schedule-note {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.5em;
+}
+
+.schedule-day {
+    text-align: center;
 }
 
 /*Bootstap classes w/out importing all of bootstrap*/
@@ -428,25 +439,20 @@ input.menlohacks-input {
     text-decoration: none;
 }
 
-.col-md-6 {
-    width: 50%;
+
+@media (min-width: 850px) {
+    .col-md-6 {
+        width: 50%;
         overflow: auto;
-    float: left;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    box-sizing: border-box;
-/*        box-sizing: border-box;*/
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
 }
 
-@media (min-width: 992px)
-
-
-/*
-.col-md-6 :after, :before {
- box-sizing: border-box;   
-}*/
 
 
 
