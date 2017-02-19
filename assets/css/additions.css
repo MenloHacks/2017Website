@@ -109,7 +109,7 @@ a[href="#menu"]:before {
     font-size: 1.5em;
     text-transform: none !important;
     line-height: 48px !important;
-    top:50%;
+/*    top:50%;*/
 }
 
 a[href="#menu"]:before {
@@ -127,9 +127,6 @@ a[href="#menu"]:hover {
 }
 
 
-.navbar-header {
-    height : 4em;
-}
 
 .inner p {
     margin-bottom: 1em;
@@ -177,11 +174,15 @@ a[href="#menu"]:hover {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1150px) {
     .hidden-xs {
         display:none;
         visibility: hidden;
     }
+    
+    .navbar-header {
+    height : 48px;
+    }   
 
     #header {
         height: 48px;
@@ -199,7 +200,13 @@ a[href="#menu"]:hover {
 			}
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1150px) {
+    
+        .navbar-header {
+    height : 4em;
+    }   
+    
+    
     .hidden-l {
         display: none;
     }
@@ -292,6 +299,113 @@ input.menlohacks-input {
 }
 }
 
+
+@media screen and (min-width: 340px) {
+    .schedule-item p {
+        display: inline-block;
+    }
+}
+
+
+.schedule-item {
+    text-align: left;
+    margin-top: 0.5em;
+}
+
+@media screen and (min-width: 991px) {
+    .col-right-align {
+        float: right;
+        padding-right: 4em;
+    }
+    .col-left-align {
+        float: left;
+        padding-left: 4em;
+    }
+
+}
+
+.time {
+    color: #7d5ba6;
+    width: 90px;
+}
+
+/*Judges*/
+.judge-image {
+    border-radius: 50%;
+    transition: 0.2s filter linear;
+    -webkit-transition: 0.2s -webkit-filter linear;
+    -moz-transition: 0.2s -moz-filter linear;
+    -ms-transition: 0.2s -ms-filter linear;
+    -o-transition: 0.2s -o-filter linear;
+    width: 100%;
+    height: 100%;
+    transition: all .2s linear;
+}
+
+.judge-div {
+    display: inline-block;
+    width: 250px;
+    max-width: 90%;
+    height: 250px;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.judge-div p {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility opacity 0.2s;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+
+.judge-div:hover .judge-image{
+     -webkit-filter: grayscale(78%)  blur(10px) contrast(0.5);
+    
+}
+
+.judge-div:hover p {
+  visibility: visible;
+  opacity: 1;
+}
+
+.judge-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.col-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    max-width: 1000px;
+}
+
+.schedule-note {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.5em;
+}
+
+.schedule-day {
+    text-align: center;
+}
+
 /*Bootstap classes w/out importing all of bootstrap*/
 
 .btn-primary {
@@ -321,3 +435,21 @@ input.menlohacks-input {
     border-radius: 4px;
     text-decoration: none;
 }
+
+
+@media (min-width: 850px) {
+    .col-md-6 {
+        width: 50%;
+        overflow: auto;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
